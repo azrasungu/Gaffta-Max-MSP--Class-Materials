@@ -6,7 +6,7 @@ Class 1: 	Introduction to Max/MSP
 -------------------------------------------------------
 •	The History
 	⁃	Max Matthews		http://en.wikipedia.org/wiki/Max_Mathews 
-	⁃	Music-N 			http://en.wikipedia.org/wiki/MUSIC-N
+	⁃	Music-N 		http://en.wikipedia.org/wiki/MUSIC-N
 	⁃	Max  (1990) 
 	⁃	MSP (1997) 
 	⁃	Jitter (2003)
