@@ -28,12 +28,41 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-23",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 47.0, 17.0, 77.0, 21.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 47.0, 44.0, 57.333344, 16.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 6, "obj-2", "gain~", "list", 127, 10.0, 5, "obj-6", "number~", "list", 0.0, 4, "obj-5", "function", "clear", 7, "obj-5", "function", "add", 0.0, 0.0, 0, 7, "obj-5", "function", "add", 5.319149, 1.0, 0, 7, "obj-5", "function", "add", 500.0, 0.0, 0, 5, "obj-5", "function", "domain", 500.0, 6, "obj-5", "function", "range", 0.0, 1.0, 5, "obj-29", "number", "int", 500, 5, "obj-31", "toggle", "int", 1, 5, "obj-50", "flonum", "float", 440.0, 5, "obj-51", "tab", "int", 0, 6, "obj-77", "gain~", "list", 127, 10.0, 5, "obj-68", "number~", "list", 0.0, 4, "obj-67", "function", "clear", 7, "obj-67", "function", "add", 0.0, 0.0, 0, 7, "obj-67", "function", "add", 39.893616, 0.973333, 0, 7, "obj-67", "function", "add", 87.765961, 0.28, 0, 7, "obj-67", "function", "add", 140.957443, 0.72, 0, 7, "obj-67", "function", "add", 223.404251, 0.253333, 0, 7, "obj-67", "function", "add", 252.659576, 1.0, 0, 7, "obj-67", "function", "add", 308.510651, 0.64, 0, 7, "obj-67", "function", "add", 372.340424, 1.0, 0, 7, "obj-67", "function", "add", 396.276581, 0.346667, 0, 7, "obj-67", "function", "add", 433.510651, 0.986667, 0, 7, "obj-67", "function", "add", 500.0, 0.0, 0, 5, "obj-67", "function", "domain", 500.0, 6, "obj-67", "function", "range", 0.0, 1.0, 5, "obj-65", "number", "int", 500, 5, "obj-61", "flonum", "float", 440.0, 5, "obj-60", "tab", "int", 3, 5, "obj-1", "toggle", "int", 1, 5, "obj-13", "number", "int", 500, 5, "obj-10", "toggle", "int", 1 ]
+						}
+ ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-16",
 					"maxclass" : "ezdac~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 328.0, 93.0, 45.0, 45.0 ],
-					"presentation_rect" : [ 320.0, 123.0, 0.0, 0.0 ]
+					"patching_rect" : [ 328.0, 93.0, 45.0, 45.0 ]
 				}
 
 			}
@@ -71,8 +100,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 328.0, 35.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 318.0, 24.0, 0.0, 0.0 ]
+					"patching_rect" : [ 328.0, 35.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -85,7 +113,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 464.0, 35.0, 71.0, 20.0 ],
-					"presentation_rect" : [ 454.0, 24.0, 0.0, 0.0 ],
 					"text" : "tempo (ms)"
 				}
 
@@ -100,8 +127,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 409.0, 35.0, 48.0, 20.0 ],
-					"presentation_rect" : [ 399.0, 24.0, 0.0, 0.0 ]
+					"patching_rect" : [ 409.0, 35.0, 48.0, 20.0 ]
 				}
 
 			}
@@ -113,8 +139,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 594.0, 155.0, 20.0, 20.0 ],
-					"presentation_rect" : [ 588.0, 177.0, 0.0, 0.0 ]
+					"patching_rect" : [ 594.0, 155.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -489,14 +514,14 @@
 					"patching_rect" : [ 468.0, 399.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
+						"digest" : "",
 						"tags" : "",
-						"default_fontsize" : 13.0,
-						"description" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontsize" : 13.0,
 						"fontface" : 0,
+						"description" : "",
 						"fontsize" : 13.0
 					}
 ,
@@ -547,8 +572,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 15.180851, 1.0, 0, 1427.0, 0.0, 0 ],
-					"domain" : 1427.0,
+					"addpoints" : [ 0.0, 0.0, 0, 39.893616, 0.973333, 0, 87.765961, 0.28, 0, 140.957443, 0.72, 0, 223.404251, 0.253333, 0, 252.659576, 1.0, 0, 308.510651, 0.64, 0, 372.340424, 1.0, 0, 396.276581, 0.346667, 0, 433.510651, 0.986667, 0, 500.0, 0.0, 0 ],
+					"domain" : 500.0,
 					"id" : "obj-67",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -563,6 +588,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"ft1" : 4.0,
 					"id" : "obj-68",
 					"interval" : 20.0,
 					"maxclass" : "number~",
@@ -1062,14 +1088,14 @@
 					"patching_rect" : [ 47.0, 399.0, 45.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"digest" : "",
 						"fontname" : "Arial",
-						"default_fontname" : "Arial",
+						"digest" : "",
 						"tags" : "",
-						"default_fontsize" : 13.0,
-						"description" : "",
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontsize" : 13.0,
 						"fontface" : 0,
+						"description" : "",
 						"fontsize" : 13.0
 					}
 ,
@@ -1132,8 +1158,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 15.180851, 0.826667, 0, 614.824463, 1.0, 0, 622.414917, 0.16, 0, 1115.792603, 0.96, 0, 1427.0, 0.0, 0 ],
-					"domain" : 1427.0,
+					"addpoints" : [ 0.0, 0.0, 0, 5.319149, 1.0, 0, 500.0, 0.0, 0 ],
+					"domain" : 500.0,
 					"id" : "obj-5",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -1148,6 +1174,7 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
+					"ft1" : 4.0,
 					"id" : "obj-6",
 					"interval" : 20.0,
 					"maxclass" : "number~",
@@ -1360,6 +1387,15 @@
 					"hidden" : 0,
 					"midpoints" : [ 56.5, 629.0, 131.0, 629.0, 131.0, 465.0, 93.5, 465.0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}

@@ -7,7 +7,7 @@
 			"revision" : 5
 		}
 ,
-		"rect" : [ 474.0, 150.0, 498.0, 602.0 ],
+		"rect" : [ 474.0, 150.0, 441.0, 620.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 13.0,
@@ -27,6 +27,36 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 13.0,
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 261.0, 473.0, 77.0, 21.0 ],
+					"text" : "loadmess 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "preset",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "preset", "int", "preset", "int" ],
+					"patching_rect" : [ 261.0, 505.0, 52.0, 17.0 ],
+					"preset_data" : [ 						{
+							"number" : 1,
+							"data" : [ 6, "obj-2", "gain~", "list", 113, 10.0, 5, "obj-6", "number~", "list", 0.0, 4, "obj-5", "function", "clear", 7, "obj-5", "function", "add", 0.0, 0.0, 0, 7, "obj-5", "function", "add", 5.319149, 1.0, 0, 7, "obj-5", "function", "add", 140.957443, 1.0, 0, 7, "obj-5", "function", "add", 500.0, 0.0, 0, 5, "obj-5", "function", "domain", 500.0, 6, "obj-5", "function", "range", 0.0, 1.0, 5, "obj-29", "number", "int", 500, 5, "obj-31", "toggle", "int", 1 ]
+						}
+ ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
@@ -81,8 +111,8 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 6.904255, 1.0, 0, 182.962769, 1.0, 0, 649.0, 0.0, 0 ],
-					"domain" : 649.0,
+					"addpoints" : [ 0.0, 0.0, 0, 5.319149, 1.0, 0, 140.957443, 1.0, 0, 500.0, 0.0, 0 ],
+					"domain" : 500.0,
 					"id" : "obj-5",
 					"maxclass" : "function",
 					"numinlets" : 1,
@@ -265,6 +295,15 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
