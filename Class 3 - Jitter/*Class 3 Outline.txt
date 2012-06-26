@@ -1,0 +1,29 @@
+Outline for GAFFTA's Introduction to Max/MSP Class
+Taught by Matt Ganucheau
+http://www.gaffta.org/
+
+Class 3: 	Jitter
+-------------------------------------------------------
+
+• Recap from Class 2 and New Materials
+	⁃ Audio Limit
+
+• Videos as Matrices
+	- Mixing
+	- Effects
+ 
+• Computer Vision: http://jmpelletier.com/cvjit/
+	- Installing 3rd party extensions
+	- Blobs
+	- Video Controller
+
+• VIZZIE - http://cycling74.com/2010/11/19/introducing-vizzie/
+
+• Kinect - http://deecerecords.com/kinect.html
+
+• GEN - http://cycling74.com/2012/02/06/gen-patch-a-day/
+
+	
+
+Assignment:
+	Create a music visulizer that uses C.V. to modulate.
