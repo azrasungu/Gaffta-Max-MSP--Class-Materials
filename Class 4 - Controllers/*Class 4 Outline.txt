@@ -1,0 +1,40 @@
+Outline for GAFFTA's Introduction to Max/MSP Class
+Taught by Matt Ganucheau
+http://www.gaffta.org/
+
+Class 4: 	Controllers
+-------------------------------------------------------
+
+• Recap from Class 3
+
+• OSC (Open Sound Control)
+	- OSC-Route: http://cnmat.berkeley.edu/downloads
+	- TouchOSC
+	- [Route]
+	-OSC_sampler
+		- Audio Loops to play with: https://dl.dropbox.com/u/57158100/loops.zip
+
+• Arduino: http://www.soundplusdesign.com/?p=1305
+	- Firmata
+	- Maxuino (suggested version: v007)
+
+• Kinect
+	- Skeleton with Synapse: http://synapsekinect.tumblr.com/
+		- Synapse Interface: http://cycling74.com/toolbox/kinect-via-synapse-max-interface/
+	- Just the Image: http://jmpelletier.com/freenect/
+
+• M4L (Max for Live): http://goo.gl/0KKd5
+	- Live Spec
+	- Midi
+		- [midiselect @note all]
+	- Audio
+
+• PD: http://puredata.info/
+
+• ITP ToolKit: https://github.com/mganucheau/ITP-MaxMSP-Toolkit
+
+• Web Data
+	- Jweb
+	- Plot~
+	- Coll
+	- Pachube: http://cycling74.com/toolbox/pachube-tools/
